@@ -3,4 +3,3 @@ last = array.pop
 #array << ("and " + last)
 array.join(", ")
 end
-end
