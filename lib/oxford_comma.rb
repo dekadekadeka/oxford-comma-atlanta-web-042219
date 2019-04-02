@@ -7,3 +7,4 @@ elsif array.size >= 3
   array << " and " + last
   array.join(", ")
 end
+end
