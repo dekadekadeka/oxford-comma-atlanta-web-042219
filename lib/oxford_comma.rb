@@ -1,5 +1,7 @@
 def oxford_comma(array)
 last = array.pop
-array << ("and " + last)
-array.join(", ")
+if array.size > 2
+  array << ("and " + last)
+  array.join(", ")
+end
 end
